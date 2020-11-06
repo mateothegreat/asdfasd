@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "asdf"
+  description: "asdf"
+  annotations:
+    github.com/project-slug: "asdf/asdfasd"
+    backstage.io/techdocs-ref: github:https://github.com/asdf/asdfasd
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "asdf"
